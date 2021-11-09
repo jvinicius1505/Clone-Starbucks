@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;500&display=swap');
+
+body{
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+p{    
+    font-weight: 500;
+    line-height: 30px;
+}
+
+header{
+    display: flex;
+    height: 100px;
+    align-items: center;
+    background-color: white;
+}
+
+header img{
+    height: 60%;
+    margin-left: 3%;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    font-weight: 500;
+}
+
+header li{    
+    cursor: pointer;
+    font-weight: bolder;
+    margin-left: 7.5px;
+    margin-right: 7.5px;
+}
+
+header li:hover{
+    color: rgb(0, 112, 74);
+}
+
+#direita{
+    margin-left: 20%;
+    display: flex;
+    column-gap: 9px;    
+    align-items: center;
+}
+
+.botao{
+    cursor: pointer;
+    border-radius: 50px;
+    border: none;
+    font-size: 1.05em;
+    height: 2em;
+    margin-left: 2px;
+    margin-right: 2px;
+}
+
+#btnEntrar{
+    border: black 1px solid;
+    background-color: white;
+}
+
+#btnParticipe{
+    color: white;
+    background-color: black;
+}
+
+#carrossel{
+    width: 100%;
+}
+
+.botaozao{
+    margin-right: 47%;
+}
+
+.botaozinho{
+    margin-left: 47%;
+}
+
+.btnCarr{
+    position: relative;
+    top: -210px;
+    cursor: pointer;
+    border-radius: 40%;
+    border: none;
+    height: 2.6em;
+    width: 2.6em; 
+}
+
+.btnCarr:hover{    
+    background-color: gray;
+    color: white;
+}
+
+
+#carrossel img{
+    width: 100%;
+}
+
+#pandemia{
+    background-color: rgb(230, 255, 238);
+    height: 170px;
+    text-align: center;
+    line-break: auto;
+    font-size: 1.2em;
+}
+
+#pandemia > p{
+    padding: 25px 0 15px; 
+}
+
+#btnSaiba{
+    background-color: rgb(230, 255, 238);
+    border: black 1px solid;
+    font-size: 0.8em;
+    width: 100px;
+}
+
+.maisCoisas{
+    background-color: rgb(230, 255, 238);
+    display: flex;
+    margin: 30px 0;
+}
+
+.divTextos{
+    text-align: center;
+    padding: 5%;
+}
+
+.maisCoisas div{
+    width: 50%;
+}
+
+.maisCoisas img{
+    width: 50%;
+}
+
+#btnSaiba:hover{
+    animation: botaoAnim 0.5s;
+    animation-fill-mode:forwards;
+}
+
+@keyframes botaoAnim{
+    from{
+        width: 100px;
+    } 
+    to{    
+        width: 90px;
+        background-color: rgb(209, 212, 210);
+        box-shadow: 10px 5px 5px green;
+    } 
+}
+
