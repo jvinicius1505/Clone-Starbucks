@@ -7,4 +7,6 @@
 
 *Projeto feito para testar o Carrossel de imagens, usando JavaScript puro*
 
-###Linguagens usadas: HTML5, CSS3 e JavaScript###
+##Linguagens usadas: HTML5, CSS3 e JavaScript
+Sem Frameworks, puro##
+
