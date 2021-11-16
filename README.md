@@ -5,4 +5,4 @@
   <img src="https://user-images.githubusercontent.com/67977860/142001423-4a5d5b5c-60bb-4e38-be06-a4a2282b1162.png" width="750px">
 </div>
 
-## Projeto feito para testar o Carrossel de imagens
+## Projeto feito para testar o Carrossel de imagens, usando JavaScript puro ##
