@@ -7,5 +7,5 @@
 
 *Projeto feito para testar o Carrossel de imagens, usando JavaScript puro*
 
-## Técnologias Puras usadas: HTML5, CSS3 e JavaScript
+## Tecnologias Puras usadas: HTML5, CSS3 e JavaScript
 
